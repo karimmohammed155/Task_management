@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import { user } from "../../../Database/models/user.model.js";
 import { Error_handler_class } from "../../utils/error-class.utils.js";
-import { compareSync, hashSync } from "bcrypt";
+import { compareSync, hashSync } from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { cloudinary_config } from "../../utils/cloudinary.utils.js";
 

@@ -8,13 +8,14 @@
     "start": "node index.js"
   },
   "engines": {
-    "node":"20.x"
+    "node": "20.x"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^2.5.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
